@@ -5,6 +5,7 @@ Imports System.Text.RegularExpressions
 Module Module1
 
     Sub Main()
+
         Dim radcount As Integer = 0
         Dim radmodcount As Integer = 0
         Dim myWriter As StreamWriter = New StreamWriter("C:\kunder\dalvik\card_transactions februari 2023-g.csv", True, Encoding.GetEncoding(1252))
